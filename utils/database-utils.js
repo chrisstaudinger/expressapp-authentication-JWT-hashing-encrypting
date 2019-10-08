@@ -2,7 +2,7 @@ const dbConnection = (err) => {
   if (err) {
     console.log('db not connected ❌')
   } else {
-    console.log('db connected ✅')
+    console.log(`db connected ✅`)
   }
 }
 
